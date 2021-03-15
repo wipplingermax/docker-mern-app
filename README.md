@@ -55,7 +55,7 @@ MongoDB: _127.0.0.1:27017_
 **None** (except docker)
 
 ### 1. Clone this repo
-```git clone https://github.com/wipplingermax/mern-app```
+```git clone https://github.com/wipplingermax/docker-mern-app```
 
 ### 2. Change into mern-app dir
 ```cd docker-mern-app```
@@ -141,11 +141,11 @@ By default the mapping and mounting is the following:
 ├── database (local mongo Database)
 ├── docker
 │   ├── app
-|   |   ├── Dockerfile (image for frontend)
-|   |   ├── start.sh (startup script for frontend)
+│   │   ├── Dockerfile (image for frontend)
+│   │   ├── start.sh (startup script for frontend)
 │   └── backend
-|   |   ├── Dockerfile (image for backend)
-|   |   ├── start.sh (startup script for backend)
+│       ├── Dockerfile (image for backend)
+│       ├── start.sh (startup script for backend)
 ├── docker-compose.yml (configure container start)
 ├── start-app-shell (start shell in app container)
 └── start-backend-shell (start shell in backend container)
